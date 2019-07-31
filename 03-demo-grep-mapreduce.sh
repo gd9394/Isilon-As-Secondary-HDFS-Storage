@@ -1,4 +1,4 @@
-hadoop jar /opt/cloudera/parcels/CDH-5.10.0-1.cdh5.10.0.p0.41/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar grep hdfs://smartconnectzonename:8020/backup/enwiki-latest-all-titles.gz hdfs://cdhdaszone.isilon.com:8020/output 'dell'
+hadoop jar /opt/cloudera/parcels/CDH-5.10.0-1.cdh5.10.0.p0.41/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar grep hdfs://smartconnectzonename:8020/backup/enwiki-latest-all-titles.gz hdfs://smartconnectzonename:8020/output 'dell'
 echo ""
 
 echo "hdfs dfs -ls -h hdfs://smartconnectzonename:8020/output"
