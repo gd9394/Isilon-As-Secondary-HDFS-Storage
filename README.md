@@ -3,7 +3,7 @@ You have an existing Hadoop cluster. You could use Isilon as a secondary HDFS st
 We could use distcp to copy the data to Isilon and once the data is in Isilon, we could analyze the data directly from Isilon.
 
 ## 1. Setup [Cloudera](https://www.cloudera.com/documentation/enterprise/5-15-x/topics/installation.html)
-## 2. [Prepare Isilon OneFS](https://www.emc.com/collateral/TechnicalDocument/docu82332.pdf)
+## 2. Setup Isilon HDFS - [Prepare OneFS](https://www.emc.com/collateral/TechnicalDocument/docu82332.pdf)
 ## 3. Login to Cloudera Manager.
   - Click Add Service, choose Isilon
   - Configure: 
