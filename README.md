@@ -1,6 +1,6 @@
 # Isilon-As-Secondary-HDFS-Storage
 You have an existing Hadoop cluster. You could use Isilon as a secondary HDFS storage to archive your data. 
-We could use Hadoop Distributed Copy(distcp) to copy the data to Isilon and once the data is in Isilon, we could analyze the data directly from Isilon.
+Hadoop Distributed Copy(distcp) is used to copy the data to Isilon and once the data is in Isilon, you could analyze the data directly from Isilon.
 
 ![Diagram](/Isilon-SecondaryHDFS.png)
 
